@@ -56,7 +56,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
  ```
  pip install requsitos.txt
  ```
-Tambien se deben descargar las stopwords para que no tengamos problemas:
+Tambien se deben descargar las stopwords para que no tengamos problemas para ello abrimos un entorno de python e ingresamos  las siguientes lineas:
 ```
 import nltk
 nltk.download('stopwords')
