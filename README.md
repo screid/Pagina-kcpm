@@ -56,6 +56,12 @@ bash Miniconda3-latest-Linux-x86_64.sh
  ```
  pip install requsitos.txt
  ```
+Tambien se deben descargar las stopwords para que no tengamos problemas:
+```
+import nltk
+nltk.download('stopwords')
+```
+
 - Una vez instaladas las librerias tenemos que levantar el servicio:
 ```
 nohup python Servicio.py &
@@ -69,9 +75,4 @@ o si queremos que corra en background
 nohup python auto.py &
 ```
 
-Antes que nada hay que descargar las stopwords abriendo python y usando la siguiente linea:
-```
-import nltk
-nltk.download('stopwords')
-```
 
