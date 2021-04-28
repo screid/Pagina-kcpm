@@ -54,7 +54,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 - Tenemos que mover el directorio a <b>/var/www/html/..</b>
 - Ahora tenemos que instalar las librerias necesarias para el proyecto, por lo que hay que dirigirse a la carpeta script y correr el siguiente comando:
  ```
- python librerias.py
+ pip install requsitos.txt
  ```
 - Una vez instaladas las librerias tenemos que levantar el servicio:
 ```
@@ -68,3 +68,10 @@ o si queremos que corra en background
 ```
 nohup python auto.py &
 ```
+
+Antes que nada hay que descargar las stopwords abriendo python y usando la siguiente linea:
+```
+import nltk
+nltk.download('stopwords')
+```
+
