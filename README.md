@@ -52,11 +52,11 @@ bash Miniconda3-latest-Linux-x86_64.sh
 ### Levantar Página Web
 - Tenemos que clonar este repositorio en nuestra maquina
 - Tenemos que mover el directorio a <b>/var/www/html/..</b>
-- Ahora tenemos que instalar las librerias necesarias para el proyecto, por lo que hay que dirigirse a la carpeta script y correr el siguiente comando:
+- Ahora tenemos que instalar las librerias necesarias para el proyecto, por lo que hay que dirigirse a la carpeta /script y correr el siguiente comando:
  ```
  pip install requsitos.txt
  ```
-Tambien se deben descargar las stopwords para que no tengamos problemas para ello abrimos un entorno de python e ingresamos  las siguientes lineas:
+- Tambien se deben descargar las stopwords para que no tengamos problemas para ello abrimos un entorno de python e ingresamos  las siguientes lineas:
 ```
 import nltk
 nltk.download('stopwords')
