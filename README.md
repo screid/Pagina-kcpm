@@ -37,7 +37,6 @@ sudo systemctl restart apache2
 - En la tercera nos pedira ingresar manualmente una clave, escribimos <b>Unab.2019</b> y le damos <b>ENTER</b>
 ```
 sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
-sudo apt install phpmyadmin php-mbstring php-gettext
 sudo phpenmod mbstring
 sudo systemctl restart apache2
 ```
