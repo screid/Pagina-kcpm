@@ -1,3 +1,4 @@
+aniso8601==9.0.1
 argon2-cffi==20.1.0
 async-generator==1.10
 attrs==20.3.0
@@ -15,6 +16,7 @@ defusedxml==0.7.1
 entrypoints==0.3
 Fiona==1.8.19
 Flask==1.1.2
+Flask-RESTful==0.3.8
 geopandas==0.9.0
 googlemaps==4.4.5
 idna==2.10
