@@ -71,10 +71,11 @@ def obtener_tweets(consumer_key, consumer_secret, access_token, access_token_sec
             escribir.writerow(datos)
             
 #Credenciales necesearias para utilizar la API de tweeter
-consumer_key="VTFW9nQuwW2mVcSp9YxZlkr8r"
-consumer_secret="wk2Uh6MbM6J6dBMNgs29v2ePKKySZ4B10mx4YDYIYgmcRBUM4N"
-access_token="1737279386-Xc0m6ehiOPXGz9ysOdmMozPGFOtRggbSN2HU4wV"
-access_token_secret="POUsvqvm1vI2DYzrhQbDNEe5KPrbguyIMqxJoxyi9VKri"
+#Obtener credenciales de tweeter y reemplazar valores
+consumer_key="API-CONSUMER-KEY"
+consumer_secret="API-CONSUMER-SECRET"
+access_token="API-ACCESS-TOKEN"
+access_token_secret="API-ACCESS-SECRET"
 
 #Funcion en la que se tienen todos los hashtags a buscar que corre de manera permanente hasta que se dejen de 
 #recibir tweets, dentro de esta funcion tambien se crean los archivos que no existen y son necesarios.
